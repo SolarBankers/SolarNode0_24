@@ -1,0 +1,65 @@
+@import '../../../../theme/variables';
+
+.-table {
+  margin-bottom: 10px;
+
+  &:first-child {
+    margin-bottom: 0;
+  }
+
+  .-row {
+    border-color: #f6f6f6;
+  }
+}
+
+.-pointer {
+  cursor: pointer;
+}
+
+.-text-right {
+  text-align: right;
+}
+
+.-grey {
+  color: $grey;
+}
+
+.-expand img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.-encryption img {
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  width: 30px;
+  vertical-align: middle;
+}
+
+.-label {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.action-buttons {
+  margin-bottom: 74px;
+  padding: 40px 0 40px;
+  text-align: center;
+
+  button {
+    background-color: $grey-lightest;
+    border: none;
+    box-shadow: none;
+    color: $grey;
+    font-size: 13px;
+    margin: 0 5px;
+    min-width: 140px;
+
+    img {
+      height: 28px;
+      margin-left: -4px;
+      width: 28px;
+    }
+  }
+}
